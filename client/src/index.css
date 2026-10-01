@@ -1962,6 +1962,33 @@ button {
   color: #8a93a8;
 }
 
+.password-input-wrap {
+  position: relative;
+}
+
+.password-input-wrap .auth-input {
+  padding-right: 4.5rem;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0.85rem;
+  padding: 0.25rem;
+  border: 0;
+  background: transparent;
+  color: var(--primary);
+  font-size: 0.82rem;
+  font-weight: 800;
+  transform: translateY(-50%);
+}
+
+.password-toggle:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 .auth-select {
   appearance: none;
 }
